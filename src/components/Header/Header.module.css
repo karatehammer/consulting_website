@@ -1,6 +1,6 @@
 .headerDaddy{
     background-color: #f8f9fa;
-    height:15vw;
+    height:10vw;    
 }
 
 .titleDaddy{
@@ -26,5 +26,5 @@
 .headerLinks{      
     font-size: 2vw;
     margin:auto;
-    margin-left: 0;
+    margin-left: 2%;
 }

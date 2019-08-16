@@ -14,12 +14,18 @@ class Header extends Component{
           <h1 className={styles.headerTitle}>{this.props.siteTitle}</h1>
         </Grid>
         <Grid item xs={2} sm={4} m={6} className={styles.linkDaddy}>          
-            <Link 
-              to="/about"
-              className={styles.headerLinks}
-            >
-              About
-            </Link>          
+          <Link 
+            to="/about"
+            className={styles.headerLinks}
+          >
+            About
+          </Link>
+          <Link
+            to="/about"
+            className={styles.headerLinks}
+          >
+            Another
+          </Link> 
         </Grid>
       </Grid>      
     )
