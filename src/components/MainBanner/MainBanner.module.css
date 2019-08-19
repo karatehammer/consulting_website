@@ -31,6 +31,59 @@
     max-width: 100%;
 }
 
+.bannerHeader{
+    color: white;
+    font-size: 2rem;    
+    text-align: center;
+    text-shadow: .5px .5px black;
+}
+
 .bannerText{
     color: white;
+    font-size: 1.15rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: .5px .5px black;
+}
+
+.linkContainer{
+    text-align: center;
+}
+
+.linkButton{
+    display: inline-block;    
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid transparent;    
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,
+        border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    touch-action: manipulation;
+    background-image: none;
+
+    margin: 5px !important;    
+    padding: 10px 24px;
+    color: #fff;
+    font-size: 16px;
+    min-width: 200px;
+    border-radius: 25px;    
+    letter-spacing: 1px;
+    background-color: #3e9d2f;    
+
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 1.15rem;
+    line-height: 1.5;
+}
+
+.linkButton:hover{
+    background-color: #007bff;
+}
+
+a{    
+    text-decoration: none;
+}
+
+.linkButton:not(:disabled):not(.disabled){
+    cursor: pointer;
 }
