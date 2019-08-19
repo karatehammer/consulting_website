@@ -24,7 +24,10 @@ class MainBanner extends Component{
                                 alt="accolade2"
                                 className={styles.imgFluid}
                             />                            
-                        </Grid>                    
+                        </Grid>
+                        <Grid item xs={12} sm={12}>
+                            <p className={styles.bannerText}>This is our motto!</p>
+                        </Grid>
                 </Grid>
             </div>
         )
