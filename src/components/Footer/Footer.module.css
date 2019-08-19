@@ -1,0 +1,12 @@
+.siteFooter{
+    background-color: #1b3769;
+    /* height: 7vw; */
+    padding: 4vw;
+}
+
+.footerText{
+    text-align: center;
+    font-size: 1rem;
+    color: #fff;
+    margin: 0;
+}
