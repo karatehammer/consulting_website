@@ -1,0 +1,70 @@
+.reviewDiv{
+    padding-top: 6%;
+    padding-bottom: 4%;
+    background-color: #efefef;
+}
+
+.reviewHeader{
+    color: #1b3769;
+}
+
+.reviewContent{
+    color: #609dde;
+    display: block;
+}
+
+.reviewText{
+    color: #1b3769;
+    font-size: 1.15rem;
+    line-height: 1.5rem;
+    font-weight: 600;    
+}
+
+.reviewGiver{
+    color: #1b3769;
+    font-weight: 100;
+}
+
+.reviewUppercase{
+    display: block;
+    text-transform: uppercase;
+    color: #609dde;
+    font-weight: bold;
+}
+
+.linkButton{
+    display: inline-block;    
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid transparent;    
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,
+        border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    touch-action: manipulation;
+    background-image: none;
+
+    margin-top: 7px !important;    
+    padding: 6px 24px;
+    color: #fff;
+    font-size: 16px;
+    min-width: 200px;
+    border-radius: 25px;    
+    letter-spacing: 1px;
+    background-color: #3e9d2f;    
+
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 1.15rem;
+    line-height: 1.5;
+}
+
+.linkButton:hover{
+    background-color: #007bff;
+}
+
+a{    
+    text-decoration: none;
+}
+
+.linkButton:not(:disabled):not(.disabled){
+    cursor: pointer;
+}
