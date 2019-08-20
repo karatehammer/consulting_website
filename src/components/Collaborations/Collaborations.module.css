@@ -1,0 +1,17 @@
+.collabDiv{
+    padding-top: 6%;
+    padding-bottom: 4%;
+}
+
+.collabHeader{
+    text-align: center;
+    color: #1b3769;
+}
+
+.collabDescription{
+    color: #1b3769;
+    font-size: 1.15rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    text-align: center;    
+}
