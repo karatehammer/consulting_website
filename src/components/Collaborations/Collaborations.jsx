@@ -26,36 +26,38 @@ class Collaborations extends Component{
                         </Grid>
                         
                         <Grid item xs={12} sm={12} md={12}>
-                            <Grid item xs={12} sm={3} md={3} className={styles.imgContainer}>
-                                <img
-                                    src={ThomsonReuters}
-                                    alt="Thomson Reuters"
-                                    className={styles.imgFluid}
-                                />
-                            </Grid>                             
+                            <Grid container justify="center" alignItems="center">
+                                <Grid item xs={10} sm={3} md={3} className={styles.imgContainer}>
+                                    <img
+                                        src={ThomsonReuters}
+                                        alt="Thomson Reuters"
+                                        className={styles.imgFluid}
+                                    />
+                                </Grid>                             
 
-                            <Grid item xs={12} sm={3} md={3} className={styles.imgContainer}>
-                                <img
-                                    src={LeadPages}
-                                    alt="Lead Pages"
-                                    className={styles.imgFluid}
-                                />
-                            </Grid>
+                                <Grid item xs={10} sm={3} md={3} className={styles.imgContainer}>
+                                    <img
+                                        src={LeadPages}
+                                        alt="Lead Pages"
+                                        className={styles.imgFluid}
+                                    />
+                                </Grid>
 
-                            <Grid item xs={12} sm={3} md={3} className={styles.imgContainer}>
-                                <img
-                                    src={BrightPeak}
-                                    alt="Bright Peak Financial"
-                                    className={styles.imgFluid}
-                                />
-                            </Grid>
+                                <Grid item xs={10} sm={3} md={3} className={styles.imgContainer}>
+                                    <img
+                                        src={BrightPeak}
+                                        alt="Bright Peak Financial"
+                                        className={styles.imgFluid}
+                                    />
+                                </Grid>
 
-                            <Grid item xs={12} sm={3} md={3} className={styles.imgContainer}>
-                                <img
-                                    src={BIWorldwide}
-                                    alt="BI Worldwide"
-                                    className={styles.imgFluid}
-                                />
+                                <Grid item xs={10} sm={3} md={3} className={styles.imgContainer}>
+                                    <img
+                                        src={BIWorldwide}
+                                        alt="BI Worldwide"
+                                        className={styles.imgFluid}
+                                    />
+                                </Grid>
                             </Grid>
                         </Grid>
                     </Grid>                    

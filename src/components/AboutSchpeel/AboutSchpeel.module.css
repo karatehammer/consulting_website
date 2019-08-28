@@ -1,0 +1,31 @@
+.schpeelDaddy{
+    font-family: 'Lora', serif;
+
+    padding: 10%;
+    margin: auto;
+
+    background-image: url('../../images//minneapolis.jpg');
+    clip-path: polygon(75% 0, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
+    height: 600px;    
+    /* height: auto; */
+    /* position: relative; */
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.schpeelHeader{
+    color: white;
+    font-size: calc(22px + 1vw);
+    text-align: center;
+    text-shadow: .5px .5px black;
+}
+
+.schpeelText{
+    color: white;
+    text-align: center;
+    font-size: calc(16px + .5vw);
+    line-height: 1.5rem;
+    font-weight: 600;
+    text-shadow: .5px .5px black;
+}
