@@ -6,11 +6,13 @@
 .collabHeader{
     text-align: center;
     color: #1b3769;
+    font-size: calc(22px + 1vw);
 }
 
 .collabDescription{
     color: #1b3769;
-    font-size: 1.15rem;
+    /* font-size: 1.15rem; */
+    font-size: calc(16px + .75vw);
     line-height: 1.5rem;
     font-weight: 600;
     text-align: center;    
@@ -26,5 +28,5 @@
 
 .imgContainer{
     display: inline-flex;
-    width: 100%;
+    width: 100%;    
 }
