@@ -1,0 +1,22 @@
+.specialtiesDiv{
+    padding-top: 6%;
+    padding-bottom: 4%;
+}
+
+.specialtiesHeader{
+    text-align: center;
+    color: #1b3769;
+    font-size: calc(22px + 1vw)
+}
+
+.specialtiesDescription{
+    color: #1b3769;
+    line-height: 1.5rem;
+    font-size: calc(16px + .75vw);
+    font-weight: 600;
+    text-align: center;
+}
+
+.specialtiesDescription li{
+    list-style-type: none;
+}

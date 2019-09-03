@@ -3,6 +3,7 @@ import {useStaticQuery, graphql} from 'gatsby'
 
 import Layout from "../components/layout";
 import AboutSchpeel from '../components/AboutSchpeel/AboutSchpeel';
+import AboutSpecialties from '../components/AboutSpecialties/AboutSpecialties';
 
 class AboutPage extends Component{
 
@@ -10,6 +11,7 @@ class AboutPage extends Component{
         return(
             <Layout>
                 <AboutSchpeel />
+                <AboutSpecialties />
             </Layout>
         )
     }
