@@ -1,0 +1,12 @@
+.headerLinks{
+    font-size: 2vw;
+    /* margin:auto; */
+    color:#1b3769;
+    margin-left: 4%;
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    font-family: 'Lora', serif;
+}
