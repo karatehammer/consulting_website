@@ -5,6 +5,8 @@ import {Grid} from '@material-ui/core'
 
 import styles from './Header.module.css'
 
+import Nav from '../Nav/Nav';
+
 class Header extends Component{
 
   render(){
@@ -13,8 +15,9 @@ class Header extends Component{
         <Grid item xs={10} sm={8} m={6} className={styles.titleDaddy}>
           <h1 className={styles.headerTitle}>{this.props.siteTitle}</h1>
         </Grid>
-        <Grid item xs={2} sm={4} m={6} className={styles.linkDaddy}>          
-          <Link 
+        <Grid item xs={2} sm={4} m={6} className={styles.linkDaddy}>
+          <Nav />
+          {/* <Link 
             to="/about"
             className={styles.headerLinks}
           >
@@ -25,7 +28,7 @@ class Header extends Component{
             className={styles.headerLinks}
           >
             Another
-          </Link> 
+          </Link>  */}
         </Grid>
       </Grid>      
     )
