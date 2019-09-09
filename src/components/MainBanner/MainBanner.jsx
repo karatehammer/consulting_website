@@ -27,21 +27,21 @@ class MainBanner extends Component{
                             />                            
                         </Grid>
                         <Grid item xs={12} sm={12}>
-                            <h2 className={styles.bannerHeader}>When all you have is a hammer, all code challenges are nails.</h2>
+                            <h2 className={styles.bannerHeader}>When you get a Hammer, all of your code challenges turn into nails.</h2>
                         </Grid>
                         <Grid item xs={12} sm={12}>
                             <p className={styles.bannerText}>
-                                Our expert developers make all the best code type stuff. We are definitely
-                                the best you've ever worked with. Several definitely credible publications have listed
-                                us the best of the best. We have a proven track record of making all the best stuff.
-                                When you work with HammerSoft, it's hammertime!
+                                Hammer Software has spent the past 15 years building great software for various clients.
+                                Whether your business is global or just starting up.  Hammer Software can provide guidance and testing expertise 
+                                for your organization.  We have a proven track record of building great software and testing frameworks.
+                                When you work with Hammer Software, you get valuable assets and a repeatable process.
                             </p>                            
                         </Grid>
                         <Grid item xs={12} sm={12}>
                             <div className={styles.linkContainer}>
-                                <Link className={styles.linkButton}>A Page</Link>
+                                {/* <Link className={styles.linkButton}>A Page</Link>
                                 <Link className={styles.linkButton}>Another Page</Link>
-                                <Link className={styles.linkButton}>A Third Page</Link>
+                                <Link className={styles.linkButton}>A Third Page</Link> */}
                             </div>                            
                         </Grid>
                 </Grid>
