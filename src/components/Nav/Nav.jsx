@@ -45,12 +45,14 @@ class Nav extends Component{
                     <Link
                         to="/about"
                         className={styles.headerLinks}
-                    >Philosophy
+                    >
+                        Philosophy
                     </Link>
                     <Link
                         to="/contact"
                         className={styles.headerLinks}
-                    >Contact Us
+                    >
+                        Contact Us
                     </Link>                
                 </>
             )
