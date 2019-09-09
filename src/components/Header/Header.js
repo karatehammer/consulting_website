@@ -11,7 +11,7 @@ class Header extends Component{
 
   render(){
     return(      
-      <Grid container justify="center" className={styles.headerDaddy}>
+      <Grid container justify="space-between" className={styles.headerDaddy}>
         <Grid item xs={10} sm={8} m={6} className={styles.titleDaddy}>
           <h1 className={styles.headerTitle}>{this.props.siteTitle}</h1>
         </Grid>
