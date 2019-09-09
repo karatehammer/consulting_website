@@ -15,7 +15,7 @@ class MainBanner extends Component{
             <div className={styles.mainBanner}>
                 <Grid container justify="center" alignItems="center">
                         <Grid item xs={12} sm={12} className={styles.accolades}>
-                            <img
+                            {/* <img
                                 src={forbes}
                                 alt="accolade1"
                                 className={styles.imgFluid}
@@ -24,7 +24,7 @@ class MainBanner extends Component{
                                 src={forbes}
                                 alt="accolade2"
                                 className={styles.imgFluid}
-                            />                            
+                            />                             */}
                         </Grid>
                         <Grid item xs={12} sm={12}>
                             <h2 className={styles.bannerHeader}>When you get a Hammer, all of your code challenges turn into nails.</h2>

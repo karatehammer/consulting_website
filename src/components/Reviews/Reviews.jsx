@@ -17,21 +17,21 @@ class Reviews extends Component{
                         </Grid>
                         <Grid item xs={12} sm={12} md={12}>
                             <p className={styles.reviewText}>
-                                "My experience working with HammerSoft was stellar. They answered all my
+                                "My experience working with Hammer Software was stellar. They answered all my
                                 questions throughout the process and were very nice. I'll definitely be working
-                                with hammersoft again in the future!"
+                                with Hammer Software again in the future!"
                             </p>
                             <h4 className={styles.reviewGiver}>
-                                Actual Human Person - Spacecraft manufacturing | August 2019
+                                Stefen Menzel - Web Developer | August 2019
                                 <span className={styles.reviewUppercase}>Application Development</span>
                             </h4>
                         </Grid>
-                        <Grid item xs={12} sm={12} md={12}>
+                        {/* <Grid item xs={12} sm={12} md={12}>
                             <p className={styles.reviewText}>
-                                "We had an excellent experience working with HammerSoft, especially when we changed
-                                everything last minute and made everything much more complicated. Hammersoft was patient
+                                "We had an excellent experience working with Hammer Software, especially when we changed
+                                everything last minute and made everything much more complicated. Hammer Software was patient
                                 with all our changes and offered guidance and wisdom throughout the project. I'd recommend
-                                working with Hammersoft again in the future."
+                                working with Hammer Software again in the future."
                             </p>
                             <h4 className={styles.reviewGiver}>
                                 President...THE president - Dog Hotel Company | September 2019
@@ -40,7 +40,7 @@ class Reviews extends Component{
                         </Grid>
                         <Grid item xs={12} sm={12} md={12}>
                             <Link className={styles.linkButton}>View More</Link>
-                        </Grid>
+                        </Grid> */}
 
                     </Grid>
                 </Grid>
