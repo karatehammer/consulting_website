@@ -37,6 +37,10 @@
     font-family: 'Lora', serif;
 }
 
+.headerLinks:hover{
+    color: yellow;
+}
+
 a{
     text-decoration: none;
 }
