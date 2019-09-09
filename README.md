@@ -1,6 +1,4 @@
-# Hammersoft Consulting site
-
-This is a website for the Hammersoft.
+Repo to house the assets for Hammer Software Consulting's website.
 
 ## Built With
 This project uses Gatsby/React
@@ -26,7 +24,3 @@ In order to run this project you'll need to install:
 
 ## Author
 [Stefen Menzel](https://github.com/stefenmenzel)
-
-# Readme has been taken over by dog.
-
-![Screenshot](src/images/guboo.jpg)
