@@ -12,10 +12,10 @@ class Header extends Component{
   render(){
     return(      
       <Grid container justify="space-between" className={styles.headerDaddy}>
-        <Grid item xs={10} sm={8} m={6} className={styles.titleDaddy}>
+        <Grid item xs={9} sm={7} m={5} className={styles.titleDaddy}>
           <h1 className={styles.headerTitle}>{this.props.siteTitle}</h1>
         </Grid>
-        <Grid item xs={2} sm={4} m={6} className={styles.linkDaddy}>
+        <Grid item xs={3} sm={5} m={5} className={styles.linkDaddy}>
           <Nav />
           {/* <Link 
             to="/about"
@@ -30,6 +30,7 @@ class Header extends Component{
             Another
           </Link>  */}
         </Grid>
+        <Grid item xs={0} sm={0} md={1}></Grid>
       </Grid>      
     )
   }
