@@ -71,20 +71,14 @@ class Nav extends Component {
             open={Boolean(this.state.anchorEl)}
             onClose={this.handleClose}
           >
-            <MenuItem onClick={this.handleClose}>
-              <Link to="/about" className={styles.menuLinks}>
-                Our Team
-              </Link>
+            <MenuItem onClick={this.handleClose} className={styles.menuLinks}>
+              <Link to="/about">Our Team</Link>
             </MenuItem>
-            <MenuItem onClick={this.handleClose}>
-              <Link to="/about" className={styles.menuLinks}>
-                Philosophy
-              </Link>
+            <MenuItem onClick={this.handleClose} className={styles.menuLinks}>
+              <Link to="/about">Philosophy</Link>
             </MenuItem>
-            <MenuItem onClick={this.handleClose}>
-              <Link to="/about" className={styles.menuLinks}>
-                Contact Us
-              </Link>
+            <MenuItem onClick={this.handleClose} className={styles.menuLinks}>
+              <Link to="/about">Contact Us</Link>
             </MenuItem>
           </Menu>
         </>
