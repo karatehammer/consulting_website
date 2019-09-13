@@ -1,0 +1,42 @@
+.teamPicsContainer {
+    background-color: #efefef
+}
+
+.leadershipHeader {
+    text-align: center;
+}
+
+.headerText {
+    text-align: center;
+    color: #1b3769;
+    font-size: calc(32px + 1vw)
+}
+
+.picDiv {
+    display:flex;
+    align-items: center;
+    text-align: center;
+    height:50%;
+}
+
+.ourTeamPic {
+    border-radius: 50%;
+    width:100%;
+    margin: auto;
+}
+
+.picLabel {
+    display:block;
+    text-transform: uppercase;
+    color: #609dde;
+    font-weight: bold;
+    font-size: calc(18px + .75vw);
+}
+
+.picDesc {
+    color: #1b3769;
+    font-weight: 100;
+    display:block;
+    text-transform: lowercase;
+    font-size: calc(14px + .75vw);
+}
