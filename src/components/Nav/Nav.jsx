@@ -52,18 +52,7 @@ class Nav extends Component {
             aria-label="Menu"
             onClick={this.toggleMenu}
           >
-            <MenuIcon />
-            {/* <List>
-                        <ListItem component={Link} to="/about" button>
-                            <MenuIcon />
-                        </ListItem>
-                        <ListItem component={Link} to="/about" button>
-                            <Typography variant="p" className={styles.headerLinks}>About</Typography>
-                        </ListItem>
-                        <ListItem component={Link} to="/about" button>
-                            <Typography variant="p" className={styles.headerLinks}>Another</Typography>
-                        </ListItem>
-                    </List> */}
+            <MenuIcon />            
           </IconButton>
           <Menu
             anchorEl={this.state.anchorEl}
