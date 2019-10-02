@@ -1,4 +1,4 @@
-Repo to house the assets for Hammer Software Consulting's website.
+Repo to house the assets for HammerQA's website.
 
 ## Built With
 This project uses Gatsby/React
