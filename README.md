@@ -1,4 +1,4 @@
-Repo to house the assets for Hammer Software Consulting's website.
+Repo to house the assets for HammerQA's website.
 
 ## Built With
 This project uses Gatsby/React
@@ -18,9 +18,6 @@ In order to run this project you'll need to install:
 
 ## installing
 * Download this project (or fork and clone).
-* install prerequisites listed above
-* run `npm install` from project directory in terminal
-* run `gatsby develop` to run the development environment.
-
-## Author
-[Stefen Menzel](https://github.com/stefenmenzel)
+* Install prerequisites listed above.
+* Run `npm install` from project directory in terminal.
+* Run `npm run develop` to run the development environment.
