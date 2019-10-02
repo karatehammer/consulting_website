@@ -4,7 +4,7 @@ class About extends Component{
 
     render(){
         return(
-            <h1>About Hammer Software</h1>
+            <h1>About HammerQA</h1>
         )
     }
 }

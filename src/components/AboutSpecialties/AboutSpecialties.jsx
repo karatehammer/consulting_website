@@ -17,13 +17,13 @@ class AboutSpecialties extends Component{
                         <Grid item xs={12} sm={12} md={12}>
                             <ul className={styles.specialtiesDescription}>
                                 <li>Quality Assurance</li>
+                                <li>Quality Engineering</li>
                                 <li>Web Application Testing</li>
                                 <li>Mobile Application Testing</li>
-                                <li>User Experience Design</li>
+                                <li>User Experience Testing</li>
                                 <li>Usability Testing</li>
                                 <li>Software Disaster Recovery</li>
-                                <li>Project Management</li>
-                                <li>Selenium</li>                                
+                                <li>Project Management</li>                              
                             </ul>
                         </Grid>
                     </Grid>
