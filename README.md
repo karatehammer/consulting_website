@@ -20,7 +20,4 @@ In order to run this project you'll need to install:
 * Download this project (or fork and clone).
 * install prerequisites listed above
 * run `npm install` from project directory in terminal
-* run `gatsby develop` to run the development environment.
-
-## Author
-[Stefen Menzel](https://github.com/stefenmenzel)
+* run `npm run develop` to run the development environment.
