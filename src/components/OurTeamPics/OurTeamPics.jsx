@@ -24,7 +24,7 @@ class OurTeamPics extends Component{
               md={10}
               className={styles.leadershipHeader}
             >
-              <h2 className={styles.headerText}>Meet the leadership</h2>
+              <h2 className={styles.headerText}>Meet the team</h2>
             </Grid>
             <Grid item xs={10} sm={10} md={10} className={styles.picDiv}>
               <Grid item xs={5} sm={5} md={5} className={styles.picContainer}>
@@ -35,7 +35,7 @@ class OurTeamPics extends Component{
                 />
                 <h4 className={styles.picLabel}>
                   Nick Hammer
-                  <span className={styles.picDesc}>owner</span>
+                  <span className={styles.picDesc}>Owner/Lead Developer</span>
                 </h4>
               </Grid>
             </Grid>
@@ -53,7 +53,7 @@ class OurTeamPics extends Component{
                 />
                 <h4 className={styles.picLabel}>
                   Todd Hammer
-                  <span className={styles.picDesc}>owner's bro</span>
+                  <span className={styles.picDesc}>IT Specialist</span>
                 </h4>
               </Grid>
               <Grid item xs={1} sm={1} md={1}></Grid>
@@ -65,7 +65,7 @@ class OurTeamPics extends Component{
                 />
                 <h4 className={styles.picLabel}>
                   Stefen Menzel
-                  <span className={styles.picDesc}>Made this</span>
+                  <span className={styles.picDesc}>Web Designer</span>
                 </h4>
               </Grid>
             </Grid>

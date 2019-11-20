@@ -11,7 +11,7 @@ class Footer extends Component{
                 <Grid container justify="center" alignItems="center">
                     <Grid item xs={9} sm={9}>
                         <p className={styles.footerText}>
-                            © {new Date().getFullYear()} Hammer Software
+                            © {new Date().getFullYear()} HammerQA
                         </p>                        
                     </Grid>
                 </Grid>                

@@ -7,7 +7,7 @@ This project uses Gatsby/React
 To get this project running you'll have to:
 * fork and clone this repo.
 * You'll need to run `npm install` to get the proper dependencies installed.
-* once you have everything installed you can run `gatsby develop` in the directory you cloned the repo to to start the development server.
+* once you have everything installed you can run `npm run develop` in the directory you cloned the repo to to start the development server.
 * By default the website will show up at `localhost:8000`
 
 ## Prerequisites
