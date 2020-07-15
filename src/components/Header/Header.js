@@ -13,7 +13,8 @@ class Header extends Component{
     return(      
       <Grid container justify="space-between" className={styles.headerDaddy}>
         <Grid item xs={9} sm={7} m={5} className={styles.titleDaddy}>
-          <h1 className={styles.headerTitle}>{this.props.siteTitle}</h1>
+          {/* use site title to link to home screen */}
+          <Link to="/"><h1 className={styles.headerTitle}>{this.props.siteTitle}</h1></Link>
         </Grid>
         <Grid item xs={3} sm={5} m={5} className={styles.linkDaddy}>
           <Nav />

@@ -32,7 +32,7 @@ class MainBanner extends Component{
                         <Grid item xs={12} sm={12}>
                             <p className={styles.bannerText}>
                                 HammerQA has spent the past 15 years building automated testing frameworks for various clients.
-                                Whether your business is global or just starting up.  Hammer Software can provide guidance and testing expertise 
+                                Whether your business is global or just starting up.  HammerQA can provide guidance and testing expertise 
                                 for your organization.  We have a proven track record of building great software and testing frameworks.
                                 When you work with HammerQA, you get decisive, efficient, and proven testing quality across your SDLC.
                             </p>                            

@@ -76,13 +76,13 @@ class Nav extends Component {
       return (
         <Grid container justify="center" className={styles.navGrid}>
           <Grid item xs={4} className={styles.navItem}>
-            <Link to="/about" className={styles.headerLinks}>
-              Our Team
+            <Link to="/philosophy" className={styles.headerLinks}>
+              About Us
             </Link>
           </Grid>
           <Grid item xs={4} className={styles.navItem}>
             <Link to="/about" className={styles.headerLinks}>
-              Philosophy
+              Our Team
             </Link>
           </Grid>
           <Grid item xs={4} className={styles.navItem}>
