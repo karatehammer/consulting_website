@@ -61,13 +61,13 @@ class Nav extends Component {
             onClose={this.handleClose}
           >
             <MenuItem onClick={this.handleClose} className={styles.menuLinks}>
+              <Link to="/philosophy">About Us</Link>
+            </MenuItem>
+            <MenuItem onClick={this.handleClose} className={styles.menuLinks}>
               <Link to="/about">Our Team</Link>
             </MenuItem>
             <MenuItem onClick={this.handleClose} className={styles.menuLinks}>
-              <Link to="/about">Philosophy</Link>
-            </MenuItem>
-            <MenuItem onClick={this.handleClose} className={styles.menuLinks}>
-              <Link to="/about">Contact Us</Link>
+              <Link to="/contact">Contact Us</Link>
             </MenuItem>
           </Menu>
         </>
