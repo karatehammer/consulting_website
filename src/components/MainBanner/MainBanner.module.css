@@ -44,8 +44,8 @@
     line-height: 2rem;
     font-weight: 600;
     text-align: center;
-    text-shadow: .5px .5px black;
-    margin-top: 18rem;
+    text-shadow: 2px 2px black;
+    margin-top: 2rem;
 }
 
 .linkContainer{
@@ -87,4 +87,9 @@ a{
 
 .linkButton:not(:disabled):not(.disabled){
     cursor: pointer;
+}
+
+.textBox {
+    background-color: rgba(0,0, 0, 0.1);
+    
 }
