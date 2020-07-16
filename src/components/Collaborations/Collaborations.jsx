@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import {Grid} from '@material-ui/core'
+import { Link } from 'gatsby';
 
 import styles from './Collaborations.module.css'
 
@@ -28,35 +29,35 @@ class Collaborations extends Component{
                         <Grid item xs={12} sm={12} md={12}>
                             <Grid container justify="center" alignItems="center">
                                 <Grid item xs={10} sm={3} md={3} className={styles.imgContainer}>
-                                    <img
+                                    <Link to="https://www.thomsonreuters.com/"><img
                                         src={ThomsonReuters}
                                         alt="Thomson Reuters"
                                         className={styles.imgFluid}
-                                    />
+                                    /></Link>
                                 </Grid>                             
 
                                 <Grid item xs={10} sm={3} md={3} className={styles.imgContainer}>
-                                    <img
+                                    <Link to="https://www.leadpages.com/"><img
                                         src={LeadPages}
                                         alt="Lead Pages"
                                         className={styles.imgFluid}
-                                    />
+                                    /></Link>
                                 </Grid>
 
                                 <Grid item xs={10} sm={3} md={3} className={styles.imgContainer}>
-                                    <img
+                                    <Link to="https://www.linkedin.com/company/brightpeak-financial/"><img
                                         src={BrightPeak}
                                         alt="Bright Peak Financial"
                                         className={styles.imgFluid}
-                                    />
+                                    /></Link>
                                 </Grid>
 
                                 <Grid item xs={10} sm={3} md={3} className={styles.imgContainer}>
-                                    <img
+                                    <Link to="https://www.biworldwide.com/"><img
                                         src={BIWorldwide}
                                         alt="BI Worldwide"
                                         className={styles.imgFluid}
-                                    />
+                                /></Link>
                                 </Grid>
                             </Grid>
                         </Grid>
