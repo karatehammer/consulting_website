@@ -13,7 +13,7 @@
     max-width: auto !important;
     padding: 10% !important;
 
-    background-image: url(../../images/guboo.jpg);
+    background-image: url(../../images/nasa-planet.jpg);
     clip-path: polygon(75% 0, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
     height: 820px;
     /* position: relative; */
@@ -33,18 +33,19 @@
 
 .bannerHeader{
     color: white;
-    font-size: 2rem;    
+    font-size: 2.5rem;    
     text-align: center;
-    text-shadow: .5px .5px black;
+    text-shadow: 2px 2px black;
 }
 
 .bannerText{
     color: white;
-    font-size: 1.15rem;
-    line-height: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
     font-weight: 600;
     text-align: center;
-    text-shadow: .5px .5px black;
+    text-shadow: 2px 2px black;
+    margin-top: 2rem;
 }
 
 .linkContainer{
@@ -86,4 +87,9 @@ a{
 
 .linkButton:not(:disabled):not(.disabled){
     cursor: pointer;
+}
+
+.textBox {
+    background-color: rgba(0,0, 0, 0.1);
+    
 }

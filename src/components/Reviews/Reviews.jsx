@@ -12,7 +12,7 @@ class Reviews extends Component{
                 <Grid container justify="center" alignItems="center">
                     <Grid item xs={10} sm={10} md={10} className={styles.reviewContent}>
 
-                        <Grid item xs={12} sm={12} md={12}>
+                        {/* <Grid item xs={12} sm={12} md={12}>
                             <h1 className={styles.reviewHeader}>Client Reviews</h1>
                         </Grid>
                         <Grid item xs={12} sm={12} md={12}>
@@ -25,7 +25,7 @@ class Reviews extends Component{
                                 Stefen Menzel - Web Developer | August 2019
                                 <span className={styles.reviewUppercase}>Application Development</span>
                             </h4>
-                        </Grid>
+                        </Grid> */}
                         {/* <Grid item xs={12} sm={12} md={12}>
                             <p className={styles.reviewText}>
                                 "We had an excellent experience working with Hammer Software, especially when we changed

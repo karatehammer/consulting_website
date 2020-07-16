@@ -61,13 +61,13 @@ class Nav extends Component {
             onClose={this.handleClose}
           >
             <MenuItem onClick={this.handleClose} className={styles.menuLinks}>
+              <Link to="/philosophy">About Us</Link>
+            </MenuItem>
+            <MenuItem onClick={this.handleClose} className={styles.menuLinks}>
               <Link to="/about">Our Team</Link>
             </MenuItem>
             <MenuItem onClick={this.handleClose} className={styles.menuLinks}>
-              <Link to="/about">Philosophy</Link>
-            </MenuItem>
-            <MenuItem onClick={this.handleClose} className={styles.menuLinks}>
-              <Link to="/about">Contact Us</Link>
+              <Link to="/contact">Contact Us</Link>
             </MenuItem>
           </Menu>
         </>
@@ -76,13 +76,13 @@ class Nav extends Component {
       return (
         <Grid container justify="center" className={styles.navGrid}>
           <Grid item xs={4} className={styles.navItem}>
-            <Link to="/about" className={styles.headerLinks}>
-              Our Team
+            <Link to="/philosophy" className={styles.headerLinks}>
+              About Us
             </Link>
           </Grid>
           <Grid item xs={4} className={styles.navItem}>
             <Link to="/about" className={styles.headerLinks}>
-              Philosophy
+              Our Team
             </Link>
           </Grid>
           <Grid item xs={4} className={styles.navItem}>

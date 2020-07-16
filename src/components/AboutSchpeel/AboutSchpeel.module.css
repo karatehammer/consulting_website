@@ -18,14 +18,21 @@
     color: white;
     font-size: calc(22px + 1vw);
     text-align: center;
-    text-shadow: .5px .5px black;
+    text-shadow: 2px 2px black;
 }
 
 .schpeelText{
     color: white;
     text-align: center;
-    font-size: calc(16px + .5vw);
-    line-height: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    /* font-size: calc(16px + .5vw);
+    line-height: 1.5rem; */
     font-weight: 600;
-    text-shadow: .5px .5px black;
+    text-shadow: 2px 2px black;
+}
+
+.textBox {
+    background-color: rgb(13, 124, 236, 0.1);
+    
 }
