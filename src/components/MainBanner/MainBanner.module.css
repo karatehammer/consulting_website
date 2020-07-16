@@ -90,6 +90,7 @@ a{
 }
 
 .textBox {
-    background-color: rgba(0,0, 0, 0.1);
+    padding-top: 10rem;
+    background-color: rgba(0,0, 0, 0.2);
     
 }

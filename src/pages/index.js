@@ -11,7 +11,6 @@ import Reviews from '../components/Reviews/Reviews';
 const IndexPage = () => (
   <Layout>
     <MainBanner />
-    {/* <Link to="/page-2/">Go to page 2</Link> */}
     <Collaborations />
     <Reviews />
   </Layout>

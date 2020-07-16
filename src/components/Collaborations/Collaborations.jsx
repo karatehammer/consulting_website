@@ -14,6 +14,21 @@ class Collaborations extends Component{
     render(){
         return(
             <div className={styles.collabDiv}>
+                <Grid item xs={12} sm={12}>
+                    <h1 className={styles.collabHeader}>
+                        HammerQA has spent the past 15 years building automated testing frameworks for various clients.</h1>
+                </Grid>
+                <Grid item xs={12} sm={12}>
+
+                    <p className={styles.collabDescription}>Whether your business is global or just starting up HammerQA can provide guidance and testing expertise
+                            for your organization.  </p>
+
+                    <p className={styles.collabDescription}>We have a proven track record of building great software and testing frameworks.</p>
+
+                    <p className={styles.collabDescription}>When you work with HammerQA, you get decisive, efficient, and proven testing quality across your SDLC.
+                            </p>
+                </Grid>
+
                 <Grid container justify="center" alignItems="center">
                     <Grid item xs={10} sm={10} md={10}>
 
