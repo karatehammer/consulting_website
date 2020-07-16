@@ -18,7 +18,7 @@ class Collaborations extends Component{
                     <h1 className={styles.collabHeader}>
                         HammerQA has spent the past 15 years building automated testing frameworks for various clients.</h1>
                 </Grid>
-                <Grid item xs={12} sm={12}>
+                <Grid item xs={12} sm={12} className={styles.textSection}>
 
                     <p className={styles.collabDescription}>Whether your business is global or just starting up HammerQA can provide guidance and testing expertise
                             for your organization.  </p>
@@ -33,7 +33,7 @@ class Collaborations extends Component{
                     <Grid item xs={10} sm={10} md={10}>
 
                         <Grid item xs={12} sm={12} md={12}>
-                            <h1 className={styles.collabHeader}>We've proudly worked for the following clients</h1>
+                            <h1 className={styles.collabHeader}>We've proudly worked for the following clients and we'd like to add you to this list.</h1>
                         </Grid>
                         <Grid item xs={12} sm={12} md={12}>
                             <p className={styles.collabDescription}>

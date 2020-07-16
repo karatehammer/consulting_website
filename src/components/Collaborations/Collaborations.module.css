@@ -12,7 +12,7 @@
 .collabDescription{
     color: #1b3769;
     /* font-size: 1.15rem; */
-    font-size: calc(16px + .75vw);
+    font-size: calc(16px + .5vw);
     line-height: 1.5rem;
     font-weight: 600;
     text-align: center;    
@@ -29,4 +29,10 @@
 .imgContainer{
     display: inline-flex;
     width: 100%;    
+}
+
+.textSection{
+    padding-bottom: 2%;
+    padding-left: 10%;
+    padding-right:10%;
 }

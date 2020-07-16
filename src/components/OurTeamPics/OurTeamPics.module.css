@@ -39,7 +39,7 @@
 
 .picDesc {
     color: #1b3769;
-    font-weight: 100;
+    /* font-weight: 100; */
     display:block;
     text-transform: lowercase;
     font-size: calc(14px + .75vw);
