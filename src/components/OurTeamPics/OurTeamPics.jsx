@@ -24,7 +24,7 @@ class OurTeamPics extends Component{
               md={10}
               className={styles.leadershipHeader}
             >
-              <h2 className={styles.headerText}>Meet our team</h2>
+              <h2 className={styles.headerText}>The HammerQA Team</h2>
             </Grid>
             <Grid item xs={10} sm={10} md={10} className={styles.picDiv}>
               <Grid item xs={5} sm={5} md={5} className={styles.picContainer}>

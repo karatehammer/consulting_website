@@ -10,7 +10,8 @@ class MainBanner extends Component {
             <div className={styles.mainBanner}>
                 <Grid container justify="center" alignItems="center">
                     <Grid item xs={12} sm={12}>
-                        <h2 className={styles.bannerHeader}>When you have HammerQA, all of your code challenges turn into nails.</h2>
+                        <h2 className={styles.bannerHeader}>At HammerQA code challenges become nails.</h2>
+                         {/* When you choose Hammer, all of your code challenges turn into nails. */}
                     </Grid>
                 </Grid>
 
