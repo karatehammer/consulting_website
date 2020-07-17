@@ -18,6 +18,16 @@
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
+.specialtiesText{
+    color: #1b3769;
+    line-height: 1.5rem;
+    font-size: calc(16px + .75vw);
+    font-weight: 600;
+    text-align: center;
+    margin: 2rem;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
 
 .specialtiesDescription li{
     list-style-type: none;

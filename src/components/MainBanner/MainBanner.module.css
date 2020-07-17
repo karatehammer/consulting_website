@@ -33,9 +33,12 @@
 
 .bannerHeader{
     color: white;
-    font-size: 2.5rem;    
+    font-size: calc(22px + 1vw);    
     text-align: center;
-    text-shadow: 2px 2px black;
+    text-shadow: -1px -1px 0 #000,
+		3px -1px 0 #000,
+		-1px 3px 0 #000,
+		3px 3px 0 #000;
 }
 
 .bannerText{
@@ -44,7 +47,10 @@
     line-height: 2rem;
     font-weight: 600;
     text-align: center;
-    text-shadow: 2px 2px black;
+    text-shadow: -1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
     margin-top: 2rem;
 }
 
@@ -90,6 +96,6 @@ a{
 }
 
 .textBox {
-    background-color: rgba(0,0, 0, 0.1);
+    background-color: #1b3769(0, 0, 0, 0.2);
     
 }

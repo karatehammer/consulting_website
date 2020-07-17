@@ -17,7 +17,7 @@
 }
 
 .headerLinks{          
-    font-size: 2vw;
+    /* font-size: 2vw; */
     /* margin:auto; */
     margin-left: auto;
     margin-right: auto;
@@ -25,7 +25,7 @@
     /* margin-left: 4%; */
     /* padding: 12% 6% 12% 6%; */
 
-    font-size: calc(13px + .75vw);
+    font-size: calc(13px + 1vw);
     font-weight: 400;
     line-height: 1.5;
     text-align: left;
