@@ -5,10 +5,15 @@ import { Grid } from '@material-ui/core'
 export class Contact extends Component {
     render() {
         return (
+            <div>
+                <div className={styles.mainBanner}>
+                    
+                </div>
             <Grid className={styles.textBox}>
-                <h1> For inquiries or job opportunities, please email:</h1>
+                <h1> To put HammerQA into your companies tool kit, please email:</h1>
                 <h1> <a href="mailto:hammer.consulting.mn@gmail.com">hammer.consulting.mn@gmail.com</a> </h1>
             </Grid>
+            </div>
         )
     }
 }

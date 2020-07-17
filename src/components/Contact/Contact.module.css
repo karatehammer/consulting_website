@@ -1,3 +1,18 @@
 .textBox{
     text-align: center
 }
+
+.mainBanner{
+    margin: auto !important;
+    max-width: auto !important;
+    padding: 10% !important;
+
+    background-image: url(../../images/Meeting-unsplash.jpg);
+    clip-path: polygon(75% 0, 100% 0, 100% 95%, 50% 100%, 0 95%, 0 0);
+    height: 820px;
+    position: relative;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+}
