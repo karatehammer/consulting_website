@@ -29,9 +29,9 @@ class Collaborations extends Component{
                     <p className={styles.missionText}>
                         When you work with HammerQA, you get decisive, efficient, and proven testing quality across your SDLC.
                             </p>
-                    <p className={styles.missionText}>
+                    {/* <p className={styles.missionText}>
                         We have a proven track record of building great software and testing frameworks.
-                        </p>
+                        </p> */}
                 </Grid>
 
                 <Grid container justify="center" alignItems="center">
