@@ -16,3 +16,13 @@
     background-repeat: no-repeat;
 
 }
+
+.contactHeader{
+    color: white;
+    font-size: calc(22px + 1vw);
+    text-align: center;
+    text-shadow: -1px -1px 0 #000,
+		3px -1px 0 #000,
+		-1px 3px 0 #000,
+		3px 3px 0 #000;
+}

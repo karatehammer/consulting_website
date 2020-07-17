@@ -6,6 +6,7 @@ import styles from './OurTeamPics.module.css';
 import NickHammer from '../../images/NickHammer.jpeg';
 import ToddHammer from '../../images/ToddHammer.jpeg';
 import StefenMenzel from '../../images/Stefen Menzel.jpg';
+import AlanHenderson from '../../images/AlanHenderson.jpeg';
 
 class OurTeamPics extends Component{
 
@@ -69,6 +70,22 @@ class OurTeamPics extends Component{
                 </h4>
               </Grid>
             </Grid>
+        
+
+          <Grid item xs={10} sm={10} md={10} className={styles.picDiv}>
+            <Grid item xs={5} sm={5} md={5} className={styles.picContainer}>
+              <img
+                src={AlanHenderson}
+                alt="Alan Henderson"
+                className={styles.ourTeamPic}
+              />
+              <h4 className={styles.picLabel}>
+                Alan Henderson
+                  <span className={styles.picDesc}>Fullstack Engineer</span>
+              </h4>
+            </Grid>
+          </Grid>
+            
           </Grid>
         )
     }

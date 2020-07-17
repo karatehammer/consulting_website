@@ -20,13 +20,18 @@ class Collaborations extends Component{
                 </Grid>
                 <Grid item xs={12} sm={12} className={styles.textSection}>
 
-                    <p className={styles.missionText}>Whether your business is global or just starting up we can provide guidance and testing expertise
-                            for your organization.  </p>
-
-                    <p className={styles.missionText}>We have a proven track record of building great software and testing frameworks.</p>
-
-                    <p className={styles.missionText}>When you work with HammerQA, you get decisive, efficient, and proven testing quality across your SDLC.
+                    <p className={styles.missionText}>
+                        Whether your business is global or just starting up we can provide guidance and testing expertise for your organization.  
                             </p>
+
+                    
+
+                    <p className={styles.missionText}>
+                        When you work with HammerQA, you get decisive, efficient, and proven testing quality across your SDLC.
+                            </p>
+                    <p className={styles.missionText}>
+                        We have a proven track record of building great software and testing frameworks.
+                        </p>
                 </Grid>
 
                 <Grid container justify="center" alignItems="center">

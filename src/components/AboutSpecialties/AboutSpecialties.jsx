@@ -15,7 +15,7 @@ class AboutSpecialties extends Component {
                                 <h1 className={styles.specialtiesHeader}>
                                     Here at HammerQA, we're always looking for a new challenge. </h1>
                                 <p className={styles.specialtiesText}>
-                                    Our passion for Quality helps teams and tech leaders to manifest their vision.</p>
+                                    Our passion for Quality helps teams and tech leaders manifest their visions.</p>
                                 <p className={styles.specialtiesText}>
                                     We help businesses of all sizes, from Enterprise to startups. </p>
                             </div>
