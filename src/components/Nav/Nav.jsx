@@ -64,7 +64,7 @@ class Nav extends Component {
               <Link to="/philosophy">About Us</Link>
             </MenuItem>
             <MenuItem onClick={this.handleClose} className={styles.menuLinks}>
-              <Link to="/about">Our Team</Link>
+              <Link to="/team">Our Team</Link>
             </MenuItem>
             <MenuItem onClick={this.handleClose} className={styles.menuLinks}>
               <Link to="/contact">Contact Us</Link>
@@ -81,7 +81,7 @@ class Nav extends Component {
             </Link>
           </Grid>
           <Grid item xs={4} className={styles.navItem}>
-            <Link to="/about" className={styles.headerLinks}>
+            <Link to="/team" className={styles.headerLinks}>
               Our Team
             </Link>
           </Grid>
