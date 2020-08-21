@@ -11,7 +11,6 @@ class MainBanner extends Component {
                 <Grid container justify="center" alignItems="center">
                     <Grid item xs={12} sm={12}>
                         <h2 className={styles.bannerHeader}>At HammerQA we understand your Quality needs and nail them.</h2>
-                         {/* When you choose Hammer, all of your code challenges turn into nails. */}
                     </Grid>
                 </Grid>
 

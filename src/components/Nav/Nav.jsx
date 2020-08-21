@@ -1,6 +1,6 @@
 import {Link} from 'gatsby';
 import React, {Component} from 'react';
-import {Grid, List, ListItem, Typography, Menu, MenuItem, IconButton} from '@material-ui/core';
+import {Grid, Menu, MenuItem, IconButton} from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 
 import styles from './Nav.module.css';

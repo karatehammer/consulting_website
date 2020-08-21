@@ -8,8 +8,7 @@ export class Contact extends Component {
             <div>
                 <Grid className={styles.mainBanner}>
                     <Grid item xs={12} sm={12}>
-                        <h2 className={styles.contactHeader}>Is there something we can help you forge?</h2>
-                        {/* When you choose Hammer, all of your code challenges turn into nails. */}
+                        <h2 className={styles.contactHeader}>What can HammerQA do for you?</h2>
                     </Grid>
                 </Grid>
             <Grid className={styles.textBox}>
