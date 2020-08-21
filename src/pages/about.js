@@ -1,6 +1,4 @@
 import React, {Component} from 'react'
-import {useStaticQuery, graphql} from 'gatsby'
-
 import Layout from "../components/layout";
 import OurTeamPics from '../components/OurTeamPics/OurTeamPics'
 
