@@ -1,18 +1,18 @@
-import React, {Component} from 'react'
-import {useStaticQuery, graphql} from 'gatsby'
+import React, { Component } from 'react'
 
 import Layout from "../components/layout";
-import OurTeamPics from '../components/OurTeamPics/OurTeamPics'
+import AboutSchpeel from '../components/AboutSchpeel/AboutSchpeel';
+import AboutSpecialties from '../components/AboutSpecialties/AboutSpecialties';
 
-class AboutPage extends Component{
-
-    render(){
-        return(
+export class About extends Component {
+    render() {
+        return (
             <Layout>
-                <OurTeamPics />
+                <AboutSchpeel />
+                <AboutSpecialties />
             </Layout>
         )
     }
 }
 
-export default AboutPage;
+export default About

@@ -41,10 +41,6 @@ class OurTeamPics extends Component{
                 </h4>
               </Grid>
             </Grid>
-
-            {/* <Grid item xs={10} sm={10} md={10}>
-              <h2 className={styles.headerText}>Our Team</h2>
-            </Grid> */}
             <Grid item xs={10} sm={10} md={10} className={styles.picDiv}>
               <Grid item xs={1} sm={1} md={1}></Grid>
               <Grid item xs={5} sm={5} md={5}>
@@ -70,10 +66,7 @@ class OurTeamPics extends Component{
                   <span className={styles.picDesc}>Web Designer</span>
                 </h4>
               </Grid>
-            {/* </Grid> */}
               <Grid item xs={1} sm={1} md={1}></Grid>
-
-          {/* <Grid item xs={10} sm={10} md={10} className={styles.picDiv}> */}
             <Grid item xs={5} sm={5} md={5} className={styles.picContainer}>
               <img
                 src={AlanHenderson}

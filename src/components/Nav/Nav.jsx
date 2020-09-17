@@ -1,6 +1,6 @@
 import {Link} from 'gatsby';
 import React, {Component} from 'react';
-import {Grid, List, ListItem, Typography, Menu, MenuItem, IconButton} from '@material-ui/core';
+import {Grid, Menu, MenuItem, IconButton} from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 
 import styles from './Nav.module.css';
@@ -61,10 +61,10 @@ class Nav extends Component {
             onClose={this.handleClose}
           >
             <MenuItem onClick={this.handleClose} className={styles.menuLinks}>
-              <Link to="/philosophy">About Us</Link>
+              <Link to="/about">About Us</Link>
             </MenuItem>
             <MenuItem onClick={this.handleClose} className={styles.menuLinks}>
-              <Link to="/about">Our Team</Link>
+              <Link to="/team">Our Team</Link>
             </MenuItem>
             <MenuItem onClick={this.handleClose} className={styles.menuLinks}>
               <Link to="/contact">Contact Us</Link>
@@ -76,12 +76,12 @@ class Nav extends Component {
       return (
         <Grid container justify="center" className={styles.navGrid}>
           <Grid item xs={4} className={styles.navItem}>
-            <Link to="/philosophy" className={styles.headerLinks}>
+            <Link to="/about" className={styles.headerLinks}>
               About Us
             </Link>
           </Grid>
           <Grid item xs={4} className={styles.navItem}>
-            <Link to="/about" className={styles.headerLinks}>
+            <Link to="/team" className={styles.headerLinks}>
               Our Team
             </Link>
           </Grid>
